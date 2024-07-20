@@ -1,0 +1,36 @@
+.card-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  .data-card {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(113, 113, 113);
+    padding: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    transition: all 0.5s ease;
+    .date {
+      font-size: 18px;
+      font-weight: 500;
+      color: rgb(233, 233, 233);
+    }
+    .degree {
+      font-size: 20px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+    }
+    .weather-text {
+      font-size: 20px;
+      font-weight: 600;
+    }
+  }
+  .data-card:hover {
+    background-color: black;
+    box-shadow: rgb(227, 227, 227) 0px 3px 8px;
+  }
+}
